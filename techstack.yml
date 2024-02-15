@@ -1,0 +1,456 @@
+repo_name: gangadharure/graphite_exporter
+report_id: 8d93d6d7f75dcea09d0914166c981a69
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T15:25:16+00:00'
+requested_by: matthiasr
+provider: github
+branch: master
+detected_tools_count: 32
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-04-12 15:32:01.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2018-08-04 14:33:08.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/.github/workflows/golangci-lint.yml
+  detection_source: ".github/workflows/golangci-lint.yml"
+  last_updated_by: prombot
+  last_updated_on: 2022-06-03 19:50:37.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-04-01 13:59:29.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-03-01 13:59:36.000000000 Z
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2022-07-08 13:43:51.000000000 Z
+- name: atomic
+  description: Wrapper types for sync/atomic which enforce atomic access
+  package_url: https://pkg.go.dev/go.uber.org/atomic
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2023-03-08 17:44:14.000000000 Z
+- name: client_model
+  description: Data model artifacts for Prometheus
+  package_url: https://pkg.go.dev/github.com/prometheus/client_model
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: SuperQ
+  last_updated_on: 2022-11-29 14:03:01.000000000 Z
+- name: common
+  description: Go libraries shared across Prometheus components and libraries
+  package_url: https://pkg.go.dev/github.com/prometheus/common
+  version: 0.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2023-03-08 17:44:14.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2023-03-08 17:44:14.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.8.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Julien Pivotto
+  last_updated_on: 2021-05-26 11:55:42.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2022-07-08 13:43:51.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  version: 1.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2023-03-08 17:44:14.000000000 Z
+- name: golang_protobuf_extensions
+  description: Support for streaming Protocol Buffer messages for the Go language
+  package_url: https://pkg.go.dev/github.com/matttproud/golang_protobuf_extensions
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-04-12 15:32:01.000000000 Z
+- name: groupcache
+  description: Groupcache is a caching and cache-filling library
+  package_url: https://pkg.go.dev/github.com/golang/groupcache
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2022-07-08 13:43:51.000000000 Z
+- name: jpillora/backoff
+  description: Simple backoff algorithm in Go
+  package_url: https://pkg.go.dev/github.com/jpillora/backoff
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2022-07-08 13:43:51.000000000 Z
+- name: kit
+  description: A standard library for microservices
+  package_url: https://pkg.go.dev/github.com/go-kit/kit
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Simon Pasquier
+  last_updated_on: 2018-11-26 15:00:09.000000000 Z
+- name: logfmt
+  description: Package logfmt marshals and unmarshals logfmt messages
+  package_url: https://pkg.go.dev/github.com/go-logfmt/logfmt
+  version: 0.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2023-03-08 17:44:14.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Simon Pasquier
+  last_updated_on: 2018-11-26 15:00:09.000000000 Z
+- name: oauth2
+  description: Go OAuth2
+  package_url: https://pkg.go.dev/golang.org/x/oauth2
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2023-03-08 17:44:14.000000000 Z
+- name: perks
+  description: Effective Computation of Things
+  package_url: https://pkg.go.dev/github.com/beorn7/perks
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2022-07-08 13:43:51.000000000 Z
+- name: procfs
+  description: Procfs provides functions to retrieve system
+  package_url: https://pkg.go.dev/github.com/prometheus/procfs
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2023-03-08 17:44:14.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-04-12 15:32:01.000000000 Z
+- name: snappy
+  description: The Snappy compression format in the Go programming language
+  package_url: https://pkg.go.dev/github.com/golang/snappy
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2022-07-08 13:43:51.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Simon Pasquier
+  last_updated_on: 2018-11-26 15:00:09.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2023-03-08 17:44:14.000000000 Z
+- name: ulid
+  description: Universally Unique Lexicographically Sortable Identifier
+  package_url: https://pkg.go.dev/github.com/oklog/ulid
+  version: 1.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2022-07-08 13:43:51.000000000 Z
+- name: units
+  description: Helpful unit multipliers and functions for Go
+  package_url: https://pkg.go.dev/github.com/alecthomas/units
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2022-07-08 11:26:51.000000000 Z
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.0.0
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/gangadharure/graphite_exporter/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Matthias Rampke
+  last_updated_on: 2022-07-08 13:43:51.000000000 Z
+  vulnerabilities:
+  - name: Excessive Platform Resource Consumption within a Loop in Kubernetes
+    cve_id: CVE-2019-11254
+    cve_url: https://github.com/advisories/GHSA-wxc4-f4m6-wwqv
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.2.8
